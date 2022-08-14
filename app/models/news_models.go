@@ -5,7 +5,7 @@ import (
 	"github.com/afex/hystrix-go/hystrix"
 	"github.com/fajarardiyanto/afaik-svc-server-news/internal/config"
 	"github.com/fajarardiyanto/afaik-svc-server-news/internal/entity"
-	"github.com/fajarardiyanto/afaik-svc-server-news/internal/interfaces"
+	"github.com/fajarardiyanto/afaik-svc-server-news/internal/repository"
 	tr "github.com/fajarardiyanto/flt-go-tracer/lib/jaeger"
 	"github.com/fajarardiyanto/flt-go-utils/pagination"
 	"github.com/fajarardiyanto/flt-go-utils/parser"
@@ -21,7 +21,7 @@ import (
 
 type Game struct{}
 
-func NewGame() interfaces.GameRepository {
+func NewGame() repository.NewsRepository {
 	return &Game{}
 }
 

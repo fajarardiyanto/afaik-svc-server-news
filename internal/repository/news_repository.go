@@ -1,4 +1,4 @@
-package interfaces
+package repository
 
 import (
 	"context"
@@ -7,7 +7,7 @@ import (
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 
-type GameRepository interface {
+type NewsRepository interface {
 	GetTotalNews(context.Context, opentracing.Span) (*pb.TotalNews, error)
 	Get(context.Context, *pb.GetNewsRequest, opentracing.Span) (*pb.NewsResponse, error)
 	Store(context.Context, *pb.NewsRequest, opentracing.Span) (*emptypb.Empty, error)

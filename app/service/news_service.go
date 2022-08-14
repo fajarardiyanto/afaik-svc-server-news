@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 	"github.com/fajarardiyanto/afaik-svc-server-news/internal/config"
-	"github.com/fajarardiyanto/afaik-svc-server-news/internal/interfaces"
+	"github.com/fajarardiyanto/afaik-svc-server-news/internal/repository"
 	"github.com/fajarardiyanto/flt-go-tracer/lib/jaeger"
 	"github.com/fajarardiyanto/flt-go-utils/validation"
 	pb "github.com/fajarardiyanto/module-proto/go/services/news"
@@ -16,12 +16,12 @@ import (
 
 type GameService struct {
 	validator *validator.Validate
-	model     interfaces.GameRepository
+	model     repository.NewsRepository
 	pb.UnimplementedNewsServiceServer
 	sync.RWMutex
 }
 
-func NewGameService(model interfaces.GameRepository) pb.NewsServiceServer {
+func NewGameService(model repository.NewsRepository) pb.NewsServiceServer {
 	return &GameService{
 		model:     model,
 		validator: utils.GetValidator(),
