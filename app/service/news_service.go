@@ -2,11 +2,11 @@ package service
 
 import (
 	"context"
+	"github.com/fajarardiyanto/afaik-svc-server-news/internal/config"
+	"github.com/fajarardiyanto/afaik-svc-server-news/internal/interfaces"
 	"github.com/fajarardiyanto/flt-go-tracer/lib/jaeger"
 	"github.com/fajarardiyanto/flt-go-utils/validation"
 	pb "github.com/fajarardiyanto/module-proto/go/services/news"
-	"github.com/fajarardiyanto/prometheus-svc-server-news/internal/config"
-	"github.com/fajarardiyanto/prometheus-svc-server-news/internal/interfaces"
 	"github.com/go-playground/validator/v10"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

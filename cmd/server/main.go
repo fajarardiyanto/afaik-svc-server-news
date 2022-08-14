@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fajarardiyanto/prometheus-svc-server-news/cmd/server/transport"
+	"github.com/fajarardiyanto/afaik-svc-server-news/cmd/server/transport"
 )
 
 func main() {

@@ -1,8 +1,8 @@
 package transport
 
 import (
+	"github.com/fajarardiyanto/afaik-svc-server-news/internal/config"
 	"github.com/fajarardiyanto/flt-go-listener/lib/proxy"
-	"github.com/fajarardiyanto/prometheus-svc-server-news/internal/config"
 )
 
 func RunServerGRPCWithProxy() {

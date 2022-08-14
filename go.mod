@@ -1,4 +1,4 @@
-module github.com/fajarardiyanto/prometheus-svc-server-news
+module github.com/fajarardiyanto/afaik-svc-server-news
 
 go 1.17
 
