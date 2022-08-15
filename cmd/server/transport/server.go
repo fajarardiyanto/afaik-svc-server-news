@@ -17,7 +17,7 @@ func NewServerGRPC() *ServerGRPC {
 	return &ServerGRPC{}
 }
 
-func (*ServerGRPC) CreateServer() *grpc.Server {
+func (*ServerGRPC) CreateServer() {
 	config.Init()
 
 	//Repository
@@ -31,9 +31,5 @@ func (*ServerGRPC) CreateServer() *grpc.Server {
 	if coreServ := serv.GetGRPCServer(); coreServ != nil {
 		pb.RegisterNewsServiceServer(coreServ, ground)
 		serv.Init()
-
-		return coreServ
 	}
-
-	return nil
 }

@@ -6,10 +6,10 @@ require (
 	github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5
 	github.com/fajarardiyanto/flt-go-database v0.0.6
 	github.com/fajarardiyanto/flt-go-env v0.0.1
-	github.com/fajarardiyanto/flt-go-listener v0.0.4
+	github.com/fajarardiyanto/flt-go-listener v0.0.6
 	github.com/fajarardiyanto/flt-go-logger v0.0.6
 	github.com/fajarardiyanto/flt-go-tracer v0.0.2
-	github.com/fajarardiyanto/flt-go-utils v0.0.5
+	github.com/fajarardiyanto/flt-go-utils v0.0.6
 	github.com/fajarardiyanto/module-proto v0.0.10
 	github.com/go-playground/validator/v10 v10.11.0
 	github.com/opentracing/opentracing-go v1.2.0
@@ -20,27 +20,19 @@ require (
 
 require (
 	github.com/armon/go-radix v1.0.0 // indirect
-	github.com/aymerick/douceur v0.2.0 // indirect
-	github.com/cenkalti/backoff/v4 v4.1.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
-	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
 	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
 	github.com/elastic/go-elasticsearch/v7 v7.17.1 // indirect
 	github.com/elastic/go-licenser v0.3.1 // indirect
 	github.com/elastic/go-sysinfo v1.1.1 // indirect
 	github.com/elastic/go-windows v1.0.0 // indirect
-	github.com/felixge/httpsnoop v1.0.3 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-redis/redis/v8 v8.11.5 // indirect
 	github.com/go-sql-driver/mysql v1.6.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/uuid v1.3.0 // indirect
-	github.com/gorilla/context v1.1.1 // indirect
-	github.com/gorilla/css v1.0.0 // indirect
-	github.com/gorilla/handlers v1.5.1 // indirect
-	github.com/gorilla/mux v1.8.0 // indirect
-	github.com/improbable-eng/grpc-web v0.15.0 // indirect
+	github.com/grpc-ecosystem/go-grpc-middleware v1.2.2 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.12.1 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
@@ -55,11 +47,8 @@ require (
 	github.com/joeshaw/multierror v0.0.0-20140124173710-69b34d4ec901 // indirect
 	github.com/jwalton/gchalk v1.3.0 // indirect
 	github.com/jwalton/go-supportscolor v1.1.0 // indirect
-	github.com/klauspost/compress v1.11.7 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
-	github.com/microcosm-cc/bluemonday v1.0.19 // indirect
 	github.com/prometheus/procfs v0.3.0 // indirect
-	github.com/rs/cors v1.7.0 // indirect
 	github.com/santhosh-tekuri/jsonschema v1.2.4 // indirect
 	github.com/smartystreets/goconvey v1.7.2 // indirect
 	github.com/uber/jaeger-client-go v2.30.0+incompatible // indirect
@@ -83,5 +72,4 @@ require (
 	gorm.io/driver/postgres v1.3.8 // indirect
 	gorm.io/gorm v1.23.8 // indirect
 	howett.net/plist v0.0.0-20181124034731-591f970eefbb // indirect
-	nhooyr.io/websocket v1.8.6 // indirect
 )
